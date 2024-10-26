@@ -1,0 +1,16 @@
+<svg viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg">
+    <!-- sclera -->
+    <path d="M 100 240 Q 240 120 380 240 Q 240 360 100 240" fill="white"/>
+    
+    <!-- glow, pupil, and iris -->
+    <circle cx="240" cy="240" r="52.5" stroke="blue" stroke-width="15" fill="none"/>
+    <circle cx="240" cy="240" r="30" fill="black"/>
+
+    <!-- triangle cut -->
+    <path d="M 240 240 L 180 215 Q 190 190 215 180 L 240 240" fill="white"></path>
+    
+    <!-- red outline -->
+    <!--    |         |                 |                 |        |                 |               |  -->
+    <path d="M 100 240 Q 240 120 380 240 Q 240 360 100 240 L 60 240 Q 240 420 420 240 Q 240 60 60 240 Z"
+    fill="red"/>
+</svg>
