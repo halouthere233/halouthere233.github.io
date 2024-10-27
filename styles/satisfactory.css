@@ -1,0 +1,12 @@
+#intro-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 0%;
+
+    transition-delay: 0s;
+    transition-duration: 1s;
+}

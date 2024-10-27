@@ -39,6 +39,7 @@ body {
     align-items: center;
     /* justify-content: center; */
     height: fit-content;
+    margin-bottom: 50px;
 }
 
 #yt-label {
@@ -54,4 +55,41 @@ body {
 #nothing-here {
     font-size: 30px;
     font-family: 'Poppins';
+}
+
+#big-links * {
+    text-decoration: none;
+    color: black;
+}
+
+.big-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin: 5px;
+    padding: 5px 30px 5px 10px;
+
+    background-color: #CEA56F;
+    border: 5px solid #A3854F;
+    border-radius: 10px;
+}
+
+.big-link > img {
+    max-width: 250px;
+    max-height: 250px;
+
+    margin: 20px;
+    filter: drop-shadow(0 3px 2px black);
+}
+
+.big-link > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.big-link-desc {
+    max-width: 200px;
+    text-align: justify;
 }

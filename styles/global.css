@@ -3,3 +3,18 @@ html, body {
     padding: 0;
     background-color: #102022;
 }
+
+#cool-flags {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 30px;
+    
+    width: 100%;
+}
+
+#cool-flags > svg {
+    width: 100px;
+    height: 60px;
+    filter: opacity(40%);
+}
